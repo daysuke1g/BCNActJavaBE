@@ -27,10 +27,15 @@ public class Nivell1Fase2App
   
   public void calcula()
   {	int numAnysTraspas = 0;
+    System.out.println("Anys de traspàs des de "+Integer.toString(ANY_TRAPAS_INICIAL)+" fins "+Integer.toString(anyNaix)+": ");  
     for(int anyAct=ANY_TRAPAS_INICIAL;anyAct<=anyNaix;anyAct+=frequencia)
     { numAnysTraspas++;
+      System.out.print(Integer.toString(anyAct)+" ");    
     }
-	System.out.println("Entre "+Integer.toString(ANY_TRAPAS_INICIAL)+" i "+Integer.toString(anyNaix)+" hi han "+Integer.toString(numAnysTraspas)+" anys de traspàs");  
+    System.out.println("");
+    System.out.println("");
+	System.out.println("Nombre d'anys de traspàs des de "+Integer.toString(ANY_TRAPAS_INICIAL)+" fins "+
+                       Integer.toString(anyNaix)+":"+Integer.toString(numAnysTraspas));	
   }
   
 }

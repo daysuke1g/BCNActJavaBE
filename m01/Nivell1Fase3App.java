@@ -29,12 +29,12 @@ public class Nivell1Fase3App
   {	boolean es_any_traspas=false; 
     for(;any_traspas<=anyNaix;any_traspas+=frequencia)
     { if(any_traspas==anyNaix) { es_any_traspas=true; }
-      System.out.println("Any traspàs : "+Integer.toString(any_traspas));    	    	
+      // System.out.println("Any traspàs : "+Integer.toString(any_traspas));    	    	
     }
     
     String frase;
-    if(es_any_traspas) { frase = "L'any "+Integer.toString(anyNaix)+" si es un any de traspàs.";     }
-            else       { frase = "L'any "+Integer.toString(anyNaix)+" no es un any de traspàs.";  }
+    if(es_any_traspas) { frase = "L'any "+Integer.toString(anyNaix)+" si es de traspàs.";     }
+            else       { frase = "L'any "+Integer.toString(anyNaix)+" no es de traspàs.";  }
 	System.out.println(frase);  
 	
   }

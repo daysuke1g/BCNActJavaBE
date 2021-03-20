@@ -40,8 +40,8 @@ public class Nivell1Fase4App
     String dataNaix    = df.format(dia) + "/" + df.format(mes) + "/" + any;
 
     System.out.println("El meu nom és "+nomComplert);  
-    System.out.println("Vaig neixer el "+dataNaix);	
-    System.out.println("El meu any de naixement "+((any%4==0)?"si":"no")+" és de traspas.");
+    System.out.println("Vaig nèixer el "+dataNaix);	
+    System.out.println("L'any "+any+" "+((any%4==0)?"si":"no")+" és de traspas.");
   }
   
 }

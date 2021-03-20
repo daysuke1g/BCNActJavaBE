@@ -31,7 +31,8 @@ public class Nivell1Fase1App
   }
   
   public void mostra()
-  {	System.out.println(cognom1+" "+cognom2+" "+nom+" "+Integer.toString(dia)+"/"+Integer.toString(mes)+"/"+Integer.toString(any));  
+  {	System.out.println(cognom1+" "+cognom2+", "+nom);  
+    System.out.println(Integer.toString(dia)+"/"+Integer.toString(mes)+"/"+Integer.toString(any));
   }
     
 	

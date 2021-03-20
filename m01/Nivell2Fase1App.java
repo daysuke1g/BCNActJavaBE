@@ -10,15 +10,15 @@ public class Nivell2Fase1App
 	
   public static void main(String[] args)
   { 
-    double doubleVal = 1.3579;
+    double doubleVal = 3.1416;
     int    intVal    = (int)doubleVal;
     float  floatVal  = (float)doubleVal;
     String stringVal = Double.toString(doubleVal);
     
-    System.out.println("double val = "+doubleVal);
-    System.out.println("int    val = "+intVal);
-    System.out.println("float  val = "+floatVal);
-    System.out.println("String val = "+stringVal);
+    System.out.println(doubleVal+" double");
+    System.out.println(intVal   +" int");
+    System.out.println(floatVal +" float");
+    System.out.println(stringVal+" string");
 	  
   }
   
