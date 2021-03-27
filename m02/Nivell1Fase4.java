@@ -10,8 +10,10 @@ public class Nivell1Fase4
 	  A més, afegeix una posició amb un espai buit entre la primera i la segona. 
 	    És a dir, partim de la llista name i surname i al acabar l’execució només tindrem una que es dirà fullName. 
      */	        	  
-	 char[] name    = "José Luis".toCharArray();
-     char[] surname	= "Cañivano".toCharArray();
+
+	 char[] name    = { 'J','o','s','é', 'L','u','i','s' } ; // o .. "".toCharArray(); 
+     char[] surname	= { 'C','a','ñ','i','v','a','n','o' } ;    
+     
 	  
      char[] fullName = new char[name.length+1+surname.length]; //init dest buffer 
      
